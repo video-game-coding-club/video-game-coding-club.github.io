@@ -1,0 +1,17 @@
+language: node_js
+
+addons:
+  apt:
+    update: true
+
+node_js:
+  - "node"
+
+install:
+  - npm install jshint PrettyCSS js-beautify html-linter -g
+  - bundle install
+
+script:
+  - ./lint.sh
+  - bundle exec danger
+  - bundle exec jekyll build
