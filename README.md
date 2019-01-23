@@ -7,6 +7,17 @@ title: "Welcome to Mountain Elementary's Video Game Coding Club"
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/video-game-coding-club/video-game-coding-club.github.io.svg)](https://github.com/video-game-coding-club/video-game-coding-club.github.io/pulls)
 [![GitHub issues](https://img.shields.io/github/issues/video-game-coding-club/video-game-coding-club.github.io.svg)](https://github.com/video-game-coding-club/video-game-coding-club.github.io/issues)
 
+# News
+
+<ul>
+  {% for post in site.posts %}
+  <li>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p>{{ post.excerpt }}</p>
+  </li>
+  {% endfor %}
+</ul>
+
 # Projects
 
 Check out our projects:
