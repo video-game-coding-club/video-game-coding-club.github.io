@@ -12,7 +12,7 @@ title: "Welcome to Mountain Elementary's Video Game Coding Club"
 <ul>
   {% for post in site.posts %}
   <li>
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <h2><a href="{{ post.url }}">{{ post.date | date_to_long_string }} - {{ post.title }}</a></h2>
     <p>{{ post.excerpt }}</p>
   </li>
   {% endfor %}
