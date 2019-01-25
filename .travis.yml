@@ -1,11 +1,13 @@
-language: node_js
+language: generic
 
 addons:
   apt:
     update: true
 
-node_js:
-  - "node"
+cache:
+  directories:
+    - ${HOME}/.gem
+    - node_modules
 
 notifications:
   webhooks:
