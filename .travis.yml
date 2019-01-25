@@ -1,4 +1,4 @@
-language: node_js
+language: generic
 
 addons:
   apt:
@@ -8,9 +8,6 @@ cache:
   directories:
     - ${HOME}/.gem
     - node_modules
-
-node_js:
-  - "node"
 
 notifications:
   webhooks:
