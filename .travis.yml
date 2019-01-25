@@ -1,9 +1,5 @@
 language: generic
 
-addons:
-  apt:
-    update: true
-
 cache:
   directories:
     - ${HOME}/.gem
@@ -19,7 +15,7 @@ notifications:
 
 install:
   - npm install jshint PrettyCSS js-beautify html-linter -g
-  - bundle install
+  - bundle install --path ${HOME}/.gem
 
 script:
   - ./lint.sh
