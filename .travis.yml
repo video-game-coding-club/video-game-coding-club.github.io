@@ -4,6 +4,11 @@ addons:
   apt:
     update: true
 
+cache:
+  directories:
+    - ${HOME}/.gem
+    - node_modules
+
 node_js:
   - "node"
 
