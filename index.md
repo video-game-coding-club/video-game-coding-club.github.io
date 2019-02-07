@@ -22,5 +22,6 @@ title: "Welcome to Mountain Elementary's Video Game Coding Club"
 
 Check out our projects:
 
-1. [Geometry Smash](https://video-game-coding-club.github.io/geometry-smash/)
-2. [Sunflower Dash](https://video-game-coding-club.github.io/sunflower-dash/)
+1. [Maze Runner](https://video-game-coding-club.github.io/maze-runner/)
+2. [Geometry Smash](https://video-game-coding-club.github.io/geometry-smash/)
+3. [Sunflower Dash](https://video-game-coding-club.github.io/sunflower-dash/)
